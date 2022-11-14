@@ -1,0 +1,12 @@
+<p>
+    <input type="file" (change)="selectFile($event)">
+</p>
+
+<p [innerText]="msg"></p>
+
+  <mat-grid-list cols="4" rowHeight="200px">
+    <mat-grid-tile
+        *ngFor="let img of images">
+        <img [src]="img.url" alt="Img" style="height:100%" (click)="onClick(img)">
+    </mat-grid-tile>
+  </mat-grid-list>
