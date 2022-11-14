@@ -12,18 +12,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { ListViewComponent } from './components/list-view/list-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { FormsModule } from '@angular/forms';
 @NgModule({
 declarations: [
 	AppComponent,
 	FileUploadComponent,
- ListViewComponent,
+ 	ListViewComponent,
 ],
 imports: [
 	BrowserModule,
 	HttpClientModule,
   AppRoutingModule,
   BrowserAnimationsModule,
-  MatGridListModule
+  MatGridListModule,
+  FormsModule
 ],
 providers: [],
 bootstrap: [AppComponent]

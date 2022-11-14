@@ -2,11 +2,23 @@
     <input type="file" (change)="selectFile($event)">
 </p>
 
-<p [innerText]="msg"></p>
+<input placeholder="image description..." [(ngModel)]="input" type="text" (change)="onInputUpdate($event)">
 
-  <mat-grid-list cols="4" rowHeight="200px">
-    <mat-grid-tile
-        *ngFor="let img of images">
-        <img [src]="img.url" alt="Img" style="height:100%" (click)="onClick(img)">
-    </mat-grid-tile>
-  </mat-grid-list>
+
+<mat-grid-list cols="4" rowHeight="200px">
+  <mat-grid-tile
+  *ngFor="let img of images">
+  <img [src]="img.url" alt="Img" style="height:100%" (click)="onClick(img)">
+  
+</mat-grid-tile>
+</mat-grid-list>
+<div [style]="modalStyle" id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span (click)="onExitModal()" class="close">&times;</span>
+    <h1 [innerHtml]="description"></h1>
+    <img [src]="clickedImage" style="height:100%" style="width:100%">
+  </div>
+
+</div>
