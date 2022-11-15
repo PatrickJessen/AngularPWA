@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1668461211933,
+  "timestamp": 1668501759386,
   "index": "https://patrickjessen.github.io/AngularPWA/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://patrickjessen.github.io/AngularPWA/favicon.ico",
         "https://patrickjessen.github.io/AngularPWA/index.html",
-        "https://patrickjessen.github.io/AngularPWA/main.f9fe9957a9ebea17.js",
+        "https://patrickjessen.github.io/AngularPWA/main.ab975d5247d500b8.js",
         "https://patrickjessen.github.io/AngularPWA/manifest.webmanifest",
         "https://patrickjessen.github.io/AngularPWA/polyfills.72cc67b926d4ec24.js",
         "https://patrickjessen.github.io/AngularPWA/runtime.3b88e53551908a39.js",
@@ -52,9 +52,9 @@
     "https://patrickjessen.github.io/AngularPWA/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://patrickjessen.github.io/AngularPWA/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://patrickjessen.github.io/AngularPWA/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://patrickjessen.github.io/AngularPWA/index.html": "bdde6d91d1768135c6046c921e07e0dec41875b6",
-    "https://patrickjessen.github.io/AngularPWA/main.f9fe9957a9ebea17.js": "25619f0b8e1b103b5fd62bcdf228e74123f4f49c",
-    "https://patrickjessen.github.io/AngularPWA/manifest.webmanifest": "0113d4f441f1547fd270a527aec3d43a9c1dbc18",
+    "https://patrickjessen.github.io/AngularPWA/index.html": "f5d9b7f6673c4001ffc0e7c0f3b7613b7a883e0e",
+    "https://patrickjessen.github.io/AngularPWA/main.ab975d5247d500b8.js": "d3f3b047da58fccc83c14e38d5eb1c5915cb539e",
+    "https://patrickjessen.github.io/AngularPWA/manifest.webmanifest": "877aa4e9a503b79abd9b3a72d60af2b4c0af262b",
     "https://patrickjessen.github.io/AngularPWA/polyfills.72cc67b926d4ec24.js": "b72d02ccb8cb052175e09d422a14501f30a2ba2a",
     "https://patrickjessen.github.io/AngularPWA/runtime.3b88e53551908a39.js": "974fc1c887c6e5d5b7364dce444ec452848546e0",
     "https://patrickjessen.github.io/AngularPWA/styles.64149f24ab077b0a.css": "1d52f3482132501bbc3515f0a5bb39ea75aeb96e"
