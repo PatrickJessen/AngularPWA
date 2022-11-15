@@ -17,6 +17,9 @@ export class FileUploadComponent {
 	modalStyle = "";
 	clickedImage: string;
 	description = "";
+  newInput = "";
+  testImage: ImageFile;
+  
 
 	onInputUpdate(event: any)
 	{
@@ -26,7 +29,8 @@ export class FileUploadComponent {
 	
 	onClick(currentImg: ImageFile)
 	{
-		this.description = "Description: " + currentImg.description;
+    this.testImage = currentImg;
+		this.description = currentImg.description;
 		this.clickedImage = currentImg.url;
 		this.msg = currentImg.description;
 		this.modalStyle = "display: contents";
@@ -36,6 +40,13 @@ export class FileUploadComponent {
 	{
 		this.modalStyle = "display: none";
 	}
+
+  onSaveDescription()
+  {
+    this.testImage.description = this.newInput
+    this.description = this.testImage.description;
+    this.newInput = "";
+  }
 	
 	selectFile(event: any) {
 		if(!event.target.files[0] || event.target.files[0].length == 0) {

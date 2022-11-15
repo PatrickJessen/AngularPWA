@@ -18,6 +18,8 @@
   <div class="modal-content">
     <span (click)="onExitModal()" class="close">&times;</span>
     <h1 [innerHtml]="description"></h1>
+    <input placeholder="new description..." [(ngModel)]="newInput" type="text">
+    <button (click)="onSaveDescription()">save</button>
     <img [src]="clickedImage" style="height:100%" style="width:100%">
   </div>
 
